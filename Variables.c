@@ -3,11 +3,13 @@
 int main()
 
 {
-    int age1, sumage;
-    int age2 = 50;
+    int age1, sumage, age2;
 
     printf("Enter a Value Please :");
     scanf("%d", &age1);
+
+    printf("Enter Value 2 :");
+    scanf("%d", &age2);
 
     sumage = age1 + age2;
 
